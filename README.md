@@ -40,3 +40,10 @@ Ensure you have the required libraries installed:
 3. **Retrieval and Generation Functions**
 
     - Functions are implemented for information retrieval from the vector database (`retrieve_from_database`) and RAG content generation (`generate_rag_content`).
+
+    The `retrieve_from_database` function uses the Faiss library to efficiently search and retrieve top-k similar vectors from the vector database based on a query vector.
+
+    The `generate_rag_content` function tokenizes a given query using the GPT-2 tokenizer, obtains hidden states from the GPT-2 model, and then computes the mean of these hidden states to create a query vector. It utilizes the `retrieve_from_database` function to retrieve relevant vectors and generates content using the GPT-2 model.
+
+    This combination of retrieval and generation functions showcases the RAG paradigm, where retrieved information enhances the context for language generation, resulting in more accurate and contextually relevant content.
+
