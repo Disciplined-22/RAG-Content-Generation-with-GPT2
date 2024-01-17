@@ -15,7 +15,7 @@ Ensure you have the required libraries installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/rag-content-generation.git
+    git clone https://github.com/Disciplined-22/RAG-Content-Generation-with-GPT2.git
     cd rag-content-generation
     ```
 
