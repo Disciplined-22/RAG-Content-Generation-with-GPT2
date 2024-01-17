@@ -22,7 +22,7 @@ Ensure you have the required libraries installed:
 2. **Run the example script:**
 
     ```bash
-    python generate_content.py
+    python main.py
     ```
 
     This script initializes a vector database with random vectors, loads a pre-trained GPT-2 model, and demonstrates RAG content generation for a sample query.
